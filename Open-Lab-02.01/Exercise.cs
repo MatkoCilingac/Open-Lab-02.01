@@ -1,17 +1,21 @@
-﻿using System;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Open_Lab_02._01
+namespace projekt2
 {
-    public class Exercise
+    class Program
     {
-        public double[] Create5Numbers()
-        {
-            throw new NotImplementedException();
-        }
 
-        public double GetSecond(double[] numbers)
+
+        static void Main(string[] args)  // - hlavna metoda 
         {
-            throw new NotImplementedException();
+            double[] cisielka = { 7.4, 5.3, 5.6, 122.5, 2.77 };
+            Console.Write(cisielka[2]);
+            Console.ReadLine();
         }
     }
 }
